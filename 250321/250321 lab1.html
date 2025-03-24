@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 양식 작성</title>
+</head>
+<body>
+    <h1> 폼 연습 - 1 </h1>
+    <form>
+        
+        <fieldset>
+            <legend>연습 - 1</legend>
+            <label>
+            이름 : <input type = "text" value=""><br>
+            </label>
+            <label for = "pwd">
+            비밀번호 : </label><input type = "password" id="pwd"><br> <!-- 두가지 라벨 사용법 -->
+            파일 : <input type = "file"><br>
+            취미 : 
+            <input type = "checkbox" value="1">축구
+            <input type = "checkbox" value="1">베구
+            <input type = "checkbox" value="1">영화관람
+            <input type = "checkbox" value="1">독서<br>
+            학과명 :
+            <input type = "radio" name = "major" value ="1">컴퓨터공학
+            <input type = "radio" name = "major" value ="2">모바일컨텐츠공학과
+            <input type = "radio" name = "major" value ="3">경영학과<br>
+            <input type = "submit" value = "전송">
+            <input type = "reset" value = "초기화">
+            <button type = "reset"> 초기화 </button><!-- 다른 방식으로 만들 수 있는 버튼-->            
+        </fieldset>
+        <small> 필드 셋 밖에 작성된 내용 </small><br>
+        <large> 필드 셋 밖에 작성된 내용 </large>
+
+
+
+    </form>
+</body>
+</html>

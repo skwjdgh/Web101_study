@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력양식</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>입력 양식</legend>
+            <table>
+                <tr>
+                    <td>이름</td?>
+                    <td><input type = "text"></td>
+                </tr>
+                <tr>
+                    <td>성별</td?>
+                    <td>
+                    <label>남자<input type = "radio" name ="성별" value="1"></label>
+                    <label>여자<input type = "radio" name ="성별" value="2"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>이메일</td?>
+                    <td><input type = "email"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td?>
+                    <td><input type = "password"></td>
+                </tr>
+                <tr>
+                    <td>좋아하는 음식</td?>
+                    <td>
+                        <select name="favorite_food" multiple size ="4">
+                        <option value = "1">김밥</option>
+                        <option value = "2" selected>떡볶이</option>
+                        <option value = "3">순대</option>
+                        <option value = "4">어묵</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>관심분야</td?>
+                    <td>
+                        보안 <input type = "checkbox" value="1">
+                        인공지능 <input type = "checkbox" value="1">
+                        네트워크 <input type = "checkbox" value="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>선택과목</td>
+                    <td>
+                        <select name="subject" >
+                        <optgroup label="실습과목">
+                        <option value="a">HTML5/CSS</option>
+                        <option value="b">JavaScript</option>
+                        <option value="c">C언어</option>
+                        </optgroup>
+                        <optgroup label="이론과목">
+                        <option value="d">멀티미디어개론</option>
+                        <option value="e">컴퓨터 개론</option>
+                        </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type = "submit" value = "제출"></td>
+
+                </tr>
+
+            </table>
+        </fieldset>
+   </form>
+    
+</body>
+</html>
