@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 명시도 연극 무대 비유</title>
+    <style>
+        /* 1. 전체 선택자 */
+        * {
+            color: gray; /* 기본 색상 */
+        }
+
+        /* 2. 태그 선택자 */
+        p {
+            color: blue;
+        }
+
+        /* 3. 클래스 선택자 */
+        .highlight {
+            color: green;
+        }
+
+        /* 4. 아이디 선택자 */
+        #important {
+            color: red;
+        }
+
+        /* 5. 조합된 선택자  */
+        p.special {
+            color: purple;
+        }
+
+        /* 6. 아이디 + 클래스 조합 */
+        #important.highlight {
+            color: orange;
+        }
+
+        /* 7. !important 사용 */
+        .forced {
+            color: black !important;
+        }
+    </style>
+</head>
+<body>
+
+    <p>껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다(파란색 적용)</p>
+    <p class="highlight">껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다 (초록색 적용)</p>
+    <p id="important">껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다 (빨간색 적용)</p>
+    <p class="special">껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다 (보라색 적용)</p>
+    <p id="important" class="highlight">껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다 (주황색 적용)</p>
+    <p class="highlight forced">껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다 (검은색 적용)</p>
+
+</body>
+</html>

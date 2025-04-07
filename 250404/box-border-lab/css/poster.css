@@ -1,0 +1,50 @@
+#container {
+  width:800px;  /* 컨테이너 너비 */
+  margin: 0 auto;   /* 컨테이너 화면 중앙에 배치 */
+  border : 1px solid black;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+#content{
+  border : 1px solid black;
+  border-radius : 5% 5% 0% 0%;
+  margin : 30px;
+  padding :50px;
+  padding-top: 10px;
+}
+#receipe{
+
+  border : 1px solid black;
+  margin : 30px;
+  padding :50px;
+  padding-top: 10px;
+}
+#package{
+
+  border : 1px solid black;
+  margin : 30px;
+  border-radius : 0% 0% 5% 5%;
+  padding :50px;
+  padding-top: 10px;
+}
+table {
+width: 500px;
+padding: auto;
+
+}
+table, th, td {
+border:1px solid #222;  /* 표 테두리 */
+border-collapse: collapse;  /* 테두리 1줄만 표시 */
+}
+th, td {
+padding:10px;  /* 셀 안쪽의 여백(패딩) */
+}
+
+img{
+width :100%;
+border-top-left-radius : 25px;
+border-top-right-radius : 25px;
+box-shadow : 5px 5px 5px black;
+}
+
