@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div span  {
+            color : red; /*자손 선택자이므로, > 는 자식 선택자*/
+        }
+        div > li {
+            color : yellow;
+            background-color : black;
+        }
+        ol > span {
+            background-color : green
+
+        }
+        li+li { /*li ~ li*/ 구분하자 
+            color :blue;
+        }
+
+        strong, li {
+            background-color : navy;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <strong><span>연수상</span> 수칙</strong>
+
+        <ol>
+            <li>지각하지 않기</li>
+            <li>결석하지 않기</li>
+            <span>(불가피할 땐 꼭 담당연구원에게 미리 말하기)</span>
+            <li>복습하기</li>
+        </ol>
+        <li>blab</li>
+    </div>
+</body>
+</html>

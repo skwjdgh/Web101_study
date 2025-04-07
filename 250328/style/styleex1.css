@@ -1,0 +1,10 @@
+body { 
+	background-color : rgb(217, 255, 0); 
+	color : rgb(111, 27, 189);
+	margin-left : 30px;
+	margin-right : 30px;
+ }
+h3 { 
+	text-align : center;
+	color : darkred;
+}
