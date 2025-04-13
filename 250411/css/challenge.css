@@ -1,0 +1,48 @@
+html, body{
+    padding : 0px;
+    margin : 0px;
+    height : 100%;
+  }
+  header {
+    height : 20%;
+    background-color: yellow;
+    margin : 0;
+    justify-content: center;
+  }
+  header > h1 {
+    text-align : center;
+  }
+  header h1, header p {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    height : 72%;
+    background-color : orange;
+    float: left;
+    width: 20%;
+    overflow : hiddon;
+  }
+  .nav a{
+    float : left;
+    display : block;
+    color: #f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+
+  }
+  section {
+    height : 72%;
+    background-color : skyblue;
+    position : relative;
+    float: left;
+    width: 80%;
+  }
+  footer {
+    clear: both; /* clear는 CSS에서 float 요소 다음에 오는 요소가 겹치지 않도록 하는 속성 */
+    height : 8%;
+    background-color : violet;
+    justify-content: center;
+    text-indent: 10px;
+  }

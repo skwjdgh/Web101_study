@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>2단 레이아웃 웹문서 (테두리 포함)</title>
+  <style>
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      height: 120px;
+      background-color: #ccc;
+      text-align: center;
+      line-height: 120px;
+      border: 1px solid #000;
+    }
+    .main {
+      display: flex;
+    }
+    .sidebar {
+      width: 300px;
+      height: 600px;
+      background-color: #f0f0f0;
+      text-align: center;
+      line-height: 600px;
+      border: 1px solid #000;
+    }
+    .content {
+      width: 900px;
+      height: 600px;
+      background-color: #e0e0ff;
+      text-align: center;
+      line-height: 600px;
+      border: 1px solid #000;
+    }
+    footer {
+      height: 100px;
+      background-color: #999;
+      text-align: center;
+      line-height: 100px;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>헤더</header>
+    <div class="main">
+      <div class="sidebar">사이드바</div>
+      <div class="content">본문</div>
+    </div>
+    <footer>푸터</footer>
+  </div>
+</body>
+</html>
