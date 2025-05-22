@@ -1,3 +1,7 @@
+<p align>
+  <img src = "https://capsule-render.vercel.app/api?type=blur&height=200&color=gradient&text=WEB101&descAlign=59&section=header">
+
+
 # Web 101
 
 이 레포지토리는 웹 개발 기초를 학습하기 위한 Jupyter Notebook 기반 학습 기록 저장소입니다. HTML과 CSS 등 웹의 기본 요소에 대해 연습하고 실습하며 구조적인 이해를 돕는 것을 목표로 합니다.
