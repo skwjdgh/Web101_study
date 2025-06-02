@@ -28,4 +28,4 @@
 ---
 ##  👨‍💻상위REPO로 돌아가기
 
-[![Front](https://img.shields.io/badge/FRONT-181717?style=plastic&logo=github&logoColor=white)](https://github.com/skwjdgh/Back)
+[![Front](https://img.shields.io/badge/FRONT-181717?style=plastic&logo=github&logoColor=white)](https://github.com/skwjdgh/Front)
