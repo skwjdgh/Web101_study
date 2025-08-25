@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const users = [
+        { name: "홍길동", score: 88 },
+        { name: "강감찬", score: 90 },
+        { name: "이순신", score: 55 },
+        { name: "황미나", score: 75 },
+        { name: "길동이", score: 92 },
+        { name: "정철", score: 35 },
+    ];
+
+    const p_student = users
+    .filter(user => user.score >=60)
+    .map(user => user.name);
+
+    console.log(p_student)
+    </script>
+</body>
+</html>

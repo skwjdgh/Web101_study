@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function getScores () {
+        var total = 0;
+        for (var i = 0; i < arguments.length; i++) {
+        total += arguments[i];
+        }
+        console.log('총점:', total);
+        }
+        getScores(80, 90, 100);
+
+    </script>
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        function getScores(...scores) {
+            const total = scores.reduce((a,b) => a + b, 0);
+            console.log('총점:',total);
+        }
+
+        getScores(80,90,100);
+    </script>
+ </body>
+ </html>

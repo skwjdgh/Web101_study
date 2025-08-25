@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const students = [
+            { id:1, name:'Kim', score:64 },
+            { id:2, name:'Lee', score:91 },
+            { id:3, name:'Park', score:82 }
+        ];
+
+        const studentScores= students.reduce((acc, student) =>{ acc[student.name] =student.score;
+            return acc;
+        },{});
+
+        console.log(studentScores);
+
+    </script>
+</body>
+</html>
+

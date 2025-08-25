@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //3. 객체 속성 병합
+        //var user = { name: '판다' };
+        //var location = { city: 'Busan' };
+        //var profile = Object.assign({}, user, location);
+        //console.log(profile);
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <script>
+        const user = {
+            name: '판다'
+        };
+        const userlocation = {
+            city: 'Busan'
+        };
+        const profile = { ...user, ...userlocation };
+
+        console.log(profile);
+
+        console.log()
+    </script>
+</body>
+</html>

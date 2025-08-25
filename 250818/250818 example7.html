@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    //배열 선언
+    const students = [
+        { id:1, name:'Kim', score:64 },
+        { id:2, name:'Lee', score:91 },
+        { id:3, name:'Park', score:82 }
+    ];
+
+    // 체이닝 방식으로 .map을 통해 ...student를 통해 모든 학생들의 점수에 10씩 가중
+    const totalScore = students
+        .map(student => ({ ...student, score: student.score + 10 })) //74, 101 , 92
+        .filter(student => student.score >= 80) //이 중에 .filter를 통해 가중된 값 중 80이상인 값만 필터링, 101, 92
+        .reduce((acc, student ) => acc + student.score, 0); //해당 값들을 가중해서 더함 101+92 = 193
+
+    console.log(totalScore); //193
+
+    </script>
+</body>
+</html>
